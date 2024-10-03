@@ -1,4 +1,4 @@
-import { testimonials } from "../constants/index.jsx";
+import {testimonials} from "../constants/index.jsx";
 import TestimonialItem from "../components/TestimonialItem.jsx";
 
 const Testimonials = () => {
@@ -12,8 +12,9 @@ const Testimonials = () => {
                     <h3 className="h3 max-md:h5 text-p4">Words from our fans</h3>
                 </div>
 
-                <div className="testimonials_inner-after testimonials_inner-before relative -my-12 -mr-3 flex items-start max-lg:static max-md:block">
-                    <div className="testimonials_group-after flex-50">
+                <div
+                    className="testimonials_inner-after testimonials_inner-before relative -my-12 -mr-3 flex items-start max-lg:static max-md:block">
+                    <ul className="testimonials_group-after flex-50">
                         {testimonials.slice(0, halfLength).map((testimonial) => (
                             <TestimonialItem
                                 key={testimonial.id}
@@ -21,9 +22,9 @@ const Testimonials = () => {
                                 containerClassName="last:after:hidden last:after:max-md:block"
                             />
                         ))}
-                    </div>
+                    </ul>
 
-                    <div className="flex-50">
+                    <ul className="flex-50">
                         {testimonials.slice(halfLength).map((testimonial) => (
                             <TestimonialItem
                                 key={testimonial.id}
@@ -31,7 +32,7 @@ const Testimonials = () => {
                                 containerClassName="last:after:hidden after:right-auto after:left-0 after:max-md:-left-4 md:px-12"
                             />
                         ))}
-                    </div>
+                    </ul>
                 </div>
             </div>
         </section>

@@ -5,10 +5,12 @@ import {Collapse} from "react-collapse";
 const FaqItem = ({item, index}) => {
     const [activeId, setActiveId] = useState(null);
 
+    const number = index + 1;
+
     const active = activeId === item.id;
 
     return (
-        <div className="relative z-2 mb-16">
+        <li className="relative z-2 mb-16">
             <div
                 className="group relative flex cursor-pointer items-center justify-between gap-10 px-7"
                 onClick={() => {
@@ -16,10 +18,9 @@ const FaqItem = ({item, index}) => {
                 }}
             >
                 <div className="flex-1">
-                    <div className="small-compact mb-1.5 text-p3 max-lg:hidden">
-                        {index < 10 ? "0" : ""}
-                        {index}
-                    </div>
+                    <span className="small-compact mb-1.5 text-p3 max-lg:hidden">
+                        {number < 10 ? "0" + number : number}
+                    </span>
                     <div
                         className={clsx(
                             "h6 text-p4 transition-colors duration-500 max-md:flex max-md:min-h-20 max-md:items-center",
@@ -30,19 +31,19 @@ const FaqItem = ({item, index}) => {
                     </div>
                 </div>
 
-                <div
+                <span
                     className={clsx(
                         "faq-icon relative flex size-12 items-center justify-center rounded-full border-2 border-s2 shadow-400 transition-all duration-500 group-hover:border-s4",
                         active && "before:bg-p1 after:rotate-0 after:bg-p1",
                     )}
                 >
-                    <div className="g4 size-11/12 rounded-full shadow-300"/>
-                </div>
+                    <span className="g4 size-11/12 rounded-full shadow-300"/>
+                </span>
             </div>
 
             <Collapse isOpened={active}>
-                <div className="body-3 px-7 py-3.5">
-                    <p>{item.answer} </p>
+                <div>
+                    <p className="body-3 px-7 py-3.5">{item.answer} </p>
                 </div>
             </Collapse>
             <div
@@ -56,7 +57,7 @@ const FaqItem = ({item, index}) => {
 
 
             </div>
-        </div>
+        </li>
     );
 };
 
