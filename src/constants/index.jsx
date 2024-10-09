@@ -2,9 +2,9 @@ export const features = [
     {
         id: "0",
         icon: "/images/feature-1.png",
-        caption: "Easy integration",
-        title: "Work smarter not harder",
-        text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+        caption: "Effortless Productivity",
+        title: "Boost Productivity with Easy Integration",
+        text: "With Xora, repetitive tasks are a thing of the past. Automation and smart processes elevate your productivity like an extra boost of energy without the side effects.",
         button: {
             icon: "/images/magictouch.svg",
             title: "Watch the demo",
@@ -13,9 +13,9 @@ export const features = [
     {
         id: "1",
         icon: "/images/feature-2.png",
-        caption: "Secure & trustworthy",
-        title: "Sleep easy, we got your back",
-        text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+        caption: "Advanced Security",
+        title: "Advanced Security for Your Peace of Mind",
+        text: "Your data security is our top priority. With military-grade encryption and strong privacy controls, Xora ensures your data is protected as securely as Fort Knox.",
         button: {
             icon: "/images/docs.svg",
             title: "Read the docs",
@@ -27,85 +27,85 @@ export const details = [
     {
         id: "0",
         icon: "/images/detail-1.png",
-        title: "AI automated video editing",
+        title: "AI-Powered Video Editing",
     },
     {
         id: "1",
         icon: "/images/detail-2.png",
-        title: "Collaborate with your team",
+        title: "Collaborate Seamlessly with Your Team",
     },
     {
         id: "2",
         icon: "/images/detail-3.png",
-        title: "Ultra fast cloud-engine",
+        title: "Ultra-Fast Cloud Engine",
     },
     {
         id: "3",
         icon: "/images/detail-4.png",
-        title: "24 / 7 Customer support",
+        title: "24/7 Customer Support",
     },
 ];
 
 export const faq = [
     {
         id: "0",
-        question: "How easy is it to setup Xora?",
+        question: "How easy is it to set up Xora?",
         answer:
-            "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+            "It’s super easy! Xora’s intuitive setup guides you step by step so you can start using the platform in no time.",
     },
     {
         id: "1",
-        question: "Can I integrate Xora with other platforms?",
+        question: "Can Xora integrate with other platforms?",
         answer:
-            "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+            "Yes! Xora easily integrates with popular platforms to streamline your workflow and enhance efficiency.",
     },
     {
         id: "2",
-        question: "How often do you add new content?",
+        question: "How often do you add new features?",
         answer:
-            "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+            "We regularly update Xora with new features to ensure you always have the best tools available.",
     },
     {
         id: "3",
-        question: "What your refund policy?",
+        question: "What is your refund policy?",
         answer:
-            "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+            "We offer a flexible refund policy. If you're not satisfied, you can request a refund within the first 30 days.",
     },
     {
         id: "4",
-        question: "Do you have corporate plans?",
+        question: "Do you offer corporate plans?",
         answer:
-            "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+            "Yes, we provide custom corporate plans to suit the specific needs of businesses. Contact our sales team for more details.",
     },
     {
         id: "5",
         question: "What happens when I’m out of storage?",
         answer:
-            "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+            "You can easily upgrade your storage plan or archive older projects to free up space.",
     },
     {
         id: "6",
         question: "Can I upgrade my plan?",
         answer:
-            "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+            "Absolutely! You can upgrade your plan at any time, and we’ll prorate the cost to give you maximum value.",
     },
     {
         id: "7",
         question: "How do I invite my team?",
         answer:
-            "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+            "Simply go to the 'Team' section in your account dashboard and send invites to your team members.",
     },
     {
         id: "8",
         question: "Do you offer training for individuals and teams?",
         answer:
-            "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+            "Yes, we offer comprehensive training sessions for both individuals and teams to ensure you get the most out of Xora.",
     },
     {
         id: "9",
-        question: "I’m locked out of my account what do I do?",
+        question: "I’m locked out of my account. What do I do?",
         answer:
-            "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+            "No worries! Contact our 24/7 support team, and they’ll help you regain access to your account quickly.",
     },
 ];
 
@@ -132,7 +132,7 @@ export const plans = [
         priceYearly: 59,
         caption: "Most popular plan",
         features: [
-            "All Starter features",
+            "All Core features",
             "1TB additional storage",
             "Unlimited projects",
             "Analytics",
@@ -378,25 +378,25 @@ export const links = [
     {
         id: "0",
         title: "Ios",
-        icon: <Ios />,
+        icon: <Ios/>,
         url: "#",
     },
     {
         id: "1",
         title: "Android",
-        icon: <Android />,
+        icon: <Android/>,
         url: "#",
     },
     {
         id: "2",
         title: "Windows",
-        icon: <Windows />,
+        icon: <Windows/>,
         url: "#",
     },
     {
         id: "3",
         title: "Web",
-        icon: <Web />,
+        icon: <Web/>,
         url: "#",
     },
 ];
